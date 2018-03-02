@@ -38,6 +38,10 @@ var orm = {
 		});
 	},
 	updateOne: function() {
-		
+
 	}
 }
+
+
+// exporting the orm object for the model (burger.js) to use
+module.exports = orm
