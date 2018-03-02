@@ -5,7 +5,7 @@ $('create-form').on('submit', function(event) {
 	event.preventDefault();
 
 	var newBurger = {
-		name: $('#burg').val().trim();
+		name: $('#burg').val().trim()
 	};
 
 	// send POST rqst...
