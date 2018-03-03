@@ -1,7 +1,14 @@
 <li>
-	{{burger_name}}
-	<button class="change-devoured" data-id="{{id}}" data-newdevour="{{devour}}">
+	<p>
+		{{burger_name}}
+	</p>
+	<p>
+		<img src='http://www.clker.com/cliparts/6/4/5/c/11949863011820104413hamburger_ganson.svg.hi.png' alt='burger cartoon image' height='80' width='80' >
+	</p>
+	<p>
+		<button class='change-devoured' data-id='{{id}}' data-newdevour='{{devour}}'>
 		{{#if devour}}EAT THIS BURGER{{else}}Currently being digested...{{/if}}
-	</button>
+		</button>
+	</p>
 
 </li>
